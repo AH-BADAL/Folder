@@ -683,14 +683,19 @@ footer{
     font-size: 28px;
     line-height: 38px;
   }
-
+  .contact{
+   background:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+   border: none;
+  }
   .contact,
   .resume {
     width: 140px;
     font-size: 14px;
-    background:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%) ;
   }
-
+ .content-three p{
+  width:100%;
+  line-height: 20px;
+ }
   .container-two {
     flex-direction: column;
     align-items: center;
