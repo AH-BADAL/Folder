@@ -616,9 +616,6 @@ footer{
   padding: 3px;
 }
 
-
-
-/* 
 @media screen all (max-width:600px) {
   body{
     width: 600px;
@@ -631,7 +628,7 @@ footer{
     flex-direction: column;
     gap: 50px;
   }
-} */
+} 
 
 
 /* 🌐 Responsive Design - Gen Z Clean Look */
@@ -722,6 +719,7 @@ footer{
   .main-img {
     width: 90%;
     height: 300px;
+    margin-top: 20px;
   }
 
   .Blog {
