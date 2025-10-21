@@ -616,43 +616,31 @@ footer{
   padding: 3px;
 }
 
-@media screen all (max-width:600px) {
-  body{
-    width: 600px;
-  }
-  .container-one{
-    flex-direction: column;
-    gap: 20px;
-  }
-  main{
-    flex-direction: column;
-    gap: 50px;
-  }
-} 
 
 
-/* 🌐 Responsive Design - Gen Z Clean Look */
-@media (max-width: 1024px) {
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
   main {
-    margin: 0 40px;
+    margin: 0 15px; /* reduce left/right margin */
   }
 
+  /* HEADER NAVBAR */
   .main-div {
+    justify-content: space-between;
     flex-wrap: wrap;
-    justify-content: center;
-    text-align: center;
   }
 
-  .main-x {
-    margin: 10px 10px;
-    font-size: 30px;
+  .main-div h1.main-x {
+    margin-right: 0;
+    font-size: 28px;
   }
 
+  /* hide all links on mobile */
   .main-div a {
-    font-size: 15px;
-    margin: 5px;
+    display: none;
   }
 
+  /* CONTAINER ONE */
   .container-one {
     flex-direction: column;
     align-items: center;
@@ -660,59 +648,84 @@ footer{
   }
 
   .content-one {
-    width: 90%;
+    width: 100%;
+    border: none;
+  }
+
+  .content-one h1 {
+    font-size: 28px;
+    line-height: 35px;
   }
 
   .content-two {
     width: 200px;
     height: 200px;
-    margin-top: 20px;
-  }
-}
-
-@media (max-width: 768px) {
-  main {
-    margin: 0 20px;
+    margin-top: 30px;
   }
 
-  h1, h2, h3 {
-    text-align: center;
+  i {
+    font-size: 25px;
+    margin-top: 10px;
   }
 
-  .content-one h1 {
-    font-size: 28px;
-    line-height: 38px;
-  }
-  .contact{
-   background:linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
-   border: none;
-  }
-  .contact,
-  .resume {
+  .contact, .resume {
     width: 140px;
-    font-size: 14px;
+    padding: 10px;
+    margin: 5px;
   }
- .content-three p{
-  width:100%;
-  line-height: 20px;
- }
+
+  /* CONTAINER TWO (ABOUT) */
   .container-two {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
   }
 
-  .content-three,
-  .content-four {
-    width: 90%;
-    text-align: center;
+  .content-three, .content-four {
+    width: 100%;
   }
 
   .content-four img {
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
   }
 
+  .content-three p {
+    font-size: 16px;
+  }
+
+  /* SKILLS MARQUEE */
+  marquee {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  button.html, button.css, button.javascript, button.react,
+  button.git, button.github, button.taliund, button.communication {
+    width: 120px;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 8px;
+  }
+
+  /* BLOGS */
+  .Blog, .box-one {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .Blog-one, .Blog-two, .Blog-three, .Blog-four, .box-one {
+    width: 90%;
+    height: auto;
+  }
+
+  .Blog-one img, .Blog-two img, .Blog-three img, .Blog-four img, .box-one img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* EDUCATION */
   .education {
     flex-direction: column;
     align-items: center;
@@ -723,84 +736,29 @@ footer{
   }
 
   .main-img {
-    width: 90%;
+    width: 100%;
     height: 300px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
-  .Blog {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .Blog-one,
-  .Blog-two,
-  .Blog-three,
-  .Blog-four,
-  .box-one {
-    width: 90%;
-    height: auto;
-  }
-
+  /* CONTACT FORM */
   .container-three {
     flex-direction: column;
     align-items: center;
   }
 
-  .content-five input,
-  textarea {
+  .content-five input, .content-five textarea {
     width: 90%;
   }
 
   .sent {
-    width: 150px;
     margin-left: 0;
   }
 
+  /* FOOTER */
   footer {
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    text-align: center;
   }
 }
 
-@media (max-width: 480px) {
-  body {
-    font-size: 15px;
-  }
-
-  .main-x {
-    font-size: 25px;
-  }
-
-  .content-one h1 {
-    font-size: 22px;
-    line-height: 32px;
-  }
-
-  i {
-    font-size: 25px;
-  }
-
-  .contact,
-  .resume {
-    width: 130px;
-    font-size: 13px;
-    padding: 10px;
-  }
-
-  .content-two {
-    width: 150px;
-    height: 150px;
-  }
-
-  .edu, .Skill, .me, .blog-main, .view {
-    font-size: 20px;
-    margin-left: 20px;
-  }
-
-  .content-six p {
-    font-size: 18px;
-    line-height: 25px;
-  }
-}
