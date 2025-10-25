@@ -689,7 +689,6 @@ footer{
     width: 370px;
     height: 370px;
     margin-top: 20px;
-    margin-left: 15%;
   }
 
   .content-three p {
@@ -737,9 +736,8 @@ footer{
   }
   .blog-main{
     margin-left: 35%;
-    margin-bottom: -90px;
   }
-  /* BLOGS */
+
   .Blog, .box-one {
     flex-direction: column;
     width: 100%;
@@ -753,7 +751,9 @@ footer{
   .Blog h3{
     width: 80%;
   }
-
+ .Blog-one {
+  border: 0.5px solid rgb(136, 126, 126);
+ }
   .Blog-one img, .Blog-two img, .Blog-three img, .Blog-four img, .box-one img {
     width: 100%;
     height: auto;
