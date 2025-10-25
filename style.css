@@ -621,7 +621,7 @@ footer{
 /* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   main {
-    margin: 0 15px; /* reduce left/right margin */
+    margin: 0 15px;
   }
 
   /* HEADER NAVBAR */
@@ -631,13 +631,14 @@ footer{
   }
 
   .main-div h1.main-x {
-    margin-right: 0;
-    font-size: 28px;
+    font-size: 40px;
+    margin-left: 30%;
   }
-
-  /* hide all links on mobile */
   .main-div a {
     display: none;
+  }
+  .me{
+    margin-left: 30%;
   }
 
   /* CONTAINER ONE */
@@ -653,7 +654,7 @@ footer{
   }
 
   .content-one h1 {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 35px;
   }
 
@@ -685,29 +686,58 @@ footer{
   }
 
   .content-four img {
-    width: 200px;
-    height: 200px;
+    width: 370px;
+    height: 370px;
     margin-top: 20px;
   }
 
   .content-three p {
     font-size: 16px;
   }
+  .Skill{
+    margin-left: 30%;
+  }
+  .edu{
+    margin-top: 10px;
+    margin-left: 28%;
+    margin-bottom: -55px;
+  }
+
 
   /* SKILLS MARQUEE */
   marquee {
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   button.html, button.css, button.javascript, button.react,
   button.git, button.github, button.taliund, button.communication {
     width: 120px;
-    font-size: 16px;
+    font-size: 15px;
     padding: 10px;
     margin-right: 8px;
   }
+  .communication{
+   display: none;
+  }
+  .one{
+    margin-left: 10%;
+    margin-bottom: 5%;
+    
 
+  }
+  .one div{
+    height: 200px;
+    background:tomato;
+    line-height: 30px;
+  }
+  .main-img{
+    margin-top: 10%;
+  }
+  .blog-main{
+    margin-left: 35%;
+    margin-bottom: -90px;
+  }
   /* BLOGS */
   .Blog, .box-one {
     flex-direction: column;
@@ -716,8 +746,11 @@ footer{
   }
 
   .Blog-one, .Blog-two, .Blog-three, .Blog-four, .box-one {
-    width: 90%;
+    width: 95%;
     height: auto;
+  }
+  .Blog h3{
+    width: 80%;
   }
 
   .Blog-one img, .Blog-two img, .Blog-three img, .Blog-four img, .box-one img {
@@ -729,6 +762,9 @@ footer{
   .education {
     flex-direction: column;
     align-items: center;
+  }
+  .view{
+    margin-left: 30%;
   }
 
   .one div {
@@ -745,12 +781,16 @@ footer{
   .container-three {
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    height: 700px;
   }
-
   .content-five input, .content-five textarea {
     width: 90%;
   }
-
+  .content-six{
+   margin-top: -50px;
+   margin-left: 5%;
+  }
   .sent {
     margin-left: 0;
   }
@@ -759,6 +799,10 @@ footer{
   footer {
     flex-direction: column;
     text-align: center;
+    border: none;
+  }
+  footer p{
+    margin-top: 80px;
   }
 }
 
