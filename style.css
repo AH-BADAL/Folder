@@ -58,8 +58,8 @@ main{
   color: white;
 }
 .content-one{
-border:1px solid black;
-width: 55%;
+ border:1px solid black;
+ width: 55%;
 }
 .content-one h1{
   font-size: 45px;
@@ -293,7 +293,7 @@ textarea{
 }
 
 .view{
-   color: rgb(22 242 179);
+  color: rgb(22 242 179);
   font-size: 25px;
   margin-top: 55px;
   margin-left: 75px;
@@ -305,7 +305,6 @@ textarea{
   font-size:25px;
   line-height: 35px;
 }
-
 
 .Blog{
   display: flex;
@@ -408,7 +407,6 @@ border: 0.5px solid white;
 .Blog-four:hover{
   border: 0.5px solid white;
 }
-
 
 .box-one{
   height: 400px;
@@ -537,7 +535,6 @@ border: 0.5px solid white;
   width: 500px;
   border-radius:2%;
 }
-
 .sent{
   width: 180px;
   border-radius: 8px;
@@ -617,15 +614,11 @@ footer{
   padding: 3px;
 }
 
-
-
-/* MOBILE RESPONSIVE */
 @media (max-width: 768px) {
   main {
     margin: 0 15px;
   }
 
-  /* HEADER NAVBAR */
   .main-div {
     justify-content: space-between;
     flex-wrap: wrap;
@@ -641,8 +634,6 @@ footer{
   .me{
     margin-left: 30%;
   }
-
-  /* CONTAINER ONE */
   .container-one {
     flex-direction: column;
     align-items: center;
@@ -675,8 +666,6 @@ footer{
     padding: 10px;
     margin: 5px;
   }
-
-  /* CONTAINER TWO (ABOUT) */
   .container-two {
     flex-direction: column;
     align-items: center;
@@ -703,9 +692,6 @@ footer{
     margin-left: 28%;
     margin-bottom: -55px;
   }
-
-
-  /* SKILLS MARQUEE */
   marquee {
     margin-top: 30px;
     margin-bottom: 20px;
@@ -724,9 +710,8 @@ footer{
   .one{
     margin-left: 10%;
     margin-bottom: 5%;
-    
-
   }
+
   .one div{
     height: 200px;
     background:tomato;
@@ -759,8 +744,6 @@ footer{
     width: 100%;
     height: auto;
   }
-
-  /* EDUCATION */
   .education {
     flex-direction: column;
     align-items: center;
@@ -778,8 +761,6 @@ footer{
     height: 300px;
     margin-top: 20px;
   }
-
-  /* CONTACT FORM */
   .container-three {
     flex-direction: column;
     align-items: center;
@@ -796,8 +777,6 @@ footer{
   .sent {
     margin-left: 0;
   }
-
-  /* FOOTER */
   footer {
     flex-direction: column;
     text-align: center;
