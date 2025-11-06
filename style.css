@@ -588,12 +588,6 @@ footer{
   border-radius: 5px;
   padding: 3px;
 }
-.communication img{
-  height: 60px;
-  width: 60px;
-  border-radius: 5px;
-  padding: 3px;
-}
 .problem img{
   height: 60px;
   width: 60px;
@@ -627,9 +621,7 @@ footer{
 .react img{
   border-radius: 50%;
 }
-.communication img{
-  border-radius: 50%;
-}
+
 .git img{
   border-radius: 50%;
 }
@@ -639,12 +631,18 @@ footer{
 .taliund img{
   border-radius: 50%;
 }
+.one{
+  border: 0.5px solid whitesmoke;
+  border-radius: 5px;
+}
 
 @media (max-width: 768px) {
   main {
     margin: 0 15px;
   }
-
+ .one{
+  border: none;
+ }
   .main-div {
     justify-content: space-between;
     flex-wrap: wrap;
