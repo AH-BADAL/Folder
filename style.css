@@ -614,6 +614,32 @@ footer{
   padding: 3px;
 }
 
+
+.html img{
+  border-radius: 50%;
+}
+.css img{
+  border-radius: 50%;
+}
+.javascript img{
+  border-radius: 50%;
+}
+.react img{
+  border-radius: 50%;
+}
+.communication img{
+  border-radius: 50%;
+}
+.git img{
+  border-radius: 50%;
+}
+.github img{
+  border-radius: 50%;
+}
+.taliund img{
+  border-radius: 50%;
+}
+
 @media (max-width: 768px) {
   main {
     margin: 0 15px;
